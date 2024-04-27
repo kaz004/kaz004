@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kavyansh Singh</h1>
+<h1 align="center">Hi 👋, I'm Kavyansh</h1>
 <h3 align="center">A passionate Full Stack and Mern Stack developer from India</h3>
 </p>
 <img align="left" alt="coding" width="400" src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif"
