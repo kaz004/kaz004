@@ -3,7 +3,7 @@
 </p>
 <img align="left" alt="coding" width="400" src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif"
 >
-- 🌱 I’m currently learning **C++ and DSA**
+<!-- - 🌱 I’m currently learning **C++ and DSA** -->
 
 - 📫 How to reach me **Kavyanshsngh@gmail.com**
 
