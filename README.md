@@ -5,7 +5,7 @@
 >
 <!-- - 🌱 I’m currently learning **C++ and DSA** -->
 
-- 📫 How to reach me **Kavyanshsngh@gmail.com**
+```- 📫 How to reach me **Kavyanshsngh@gmail.com**```
 
 
 
