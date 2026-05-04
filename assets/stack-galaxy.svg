@@ -1,62 +1,79 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Technology stack galaxy</title>
-  <desc id="desc">A visual map of frontend, backend, database, DevOps, and developer tools.</desc>
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Technology command center</title>
+  <desc id="desc">A polished visual map of full-stack, backend, database, DevOps, and workflow tools.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07111F"/>
-      <stop offset="0.55" stop-color="#10233F"/>
-      <stop offset="1" stop-color="#062D2B"/>
+      <stop offset="0.48" stop-color="#10233F"/>
+      <stop offset="1" stop-color="#06332F"/>
     </linearGradient>
-    <linearGradient id="line" x1="90" y1="205" x2="1100" y2="50" gradientUnits="userSpaceOnUse">
+    <linearGradient id="ring" x1="170" y1="250" x2="1040" y2="60" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset=".5" stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
       <stop offset="1" stop-color="#F59E0B"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#000" flood-opacity=".28"/>
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity=".34"/>
     </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
     <style>
-      .title { font: 900 34px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .title { font: 900 36px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
       .sub { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #BFD0E4; }
-      .node { font: 800 15px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
-      .small { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #AFC2D8; }
-      .orbit { stroke-dasharray: 7 12; animation: move 16s linear infinite; }
-      .float { animation: float 6.5s ease-in-out infinite; }
-      .float2 { animation: float 7.5s ease-in-out infinite reverse; }
-      @keyframes move { to { stroke-dashoffset: -380; } }
+      .label { font: 900 16px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; letter-spacing: .5px; }
+      .small { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #BCD0E5; }
+      .orbit { stroke-dasharray: 8 14; animation: orbit 18s linear infinite; }
+      .float { animation: float 6s ease-in-out infinite; }
+      .float2 { animation: float 7s ease-in-out infinite reverse; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      @keyframes orbit { to { stroke-dashoffset: -520; } }
       @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(.95); } 50% { opacity: 1; transform: scale(1.08); } }
     </style>
   </defs>
-  <rect width="1200" height="260" rx="24" fill="url(#bg)"/>
-  <path class="orbit" d="M92 197C230 70 356 222 516 116C676 10 850 190 1102 58" stroke="url(#line)" stroke-width="2.4" opacity=".82"/>
-  <text class="title" x="54" y="58">Tech Stack Map</text>
-  <text class="sub" x="56" y="88">A wider toolkit across web apps, APIs, automation, containers, deployment, and practical project delivery.</text>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <text class="title" x="56" y="62">Technology Command Center</text>
+  <text class="sub" x="58" y="92">A focused toolkit for building interfaces, APIs, data layers, automation, and deployment-ready projects.</text>
+  <ellipse cx="600" cy="190" rx="418" ry="88" stroke="url(#ring)" stroke-width="3" class="orbit" opacity=".8" filter="url(#glow)"/>
+  <ellipse cx="600" cy="190" rx="290" ry="58" stroke="#FFFFFF" stroke-opacity=".13" stroke-width="2"/>
+  <circle cx="600" cy="190" r="56" fill="#FFFFFF" fill-opacity=".11" stroke="#FFFFFF" stroke-opacity=".18" filter="url(#shadow)"/>
+  <text class="label" x="558" y="184">KAVYANSH</text>
+  <text class="small" x="561" y="207">build system</text>
 
   <g filter="url(#shadow)">
-    <g class="float" transform="translate(78 128)">
-      <rect width="180" height="82" rx="18" fill="#FFFFFF" fill-opacity=".105" stroke="#38BDF8" stroke-opacity=".45"/>
-      <text class="node" x="24" y="33">Frontend</text>
-      <text class="small" x="24" y="58">React, Next, Tailwind</text>
+    <g class="float" transform="translate(92 142)">
+      <rect width="176" height="96" rx="20" fill="#FFFFFF" fill-opacity=".11" stroke="#38BDF8" stroke-opacity=".5"/>
+      <circle class="pulse" cx="34" cy="34" r="10" fill="#38BDF8"/>
+      <text class="label" x="58" y="38">Frontend</text>
+      <text class="small" x="24" y="68">React, Next, Tailwind</text>
     </g>
-    <g class="float2" transform="translate(286 106)">
-      <rect width="180" height="82" rx="18" fill="#FFFFFF" fill-opacity=".105" stroke="#22C55E" stroke-opacity=".45"/>
-      <text class="node" x="24" y="33">Backend</text>
-      <text class="small" x="24" y="58">Node, Express, APIs</text>
+    <g class="float2" transform="translate(300 92)">
+      <rect width="176" height="96" rx="20" fill="#FFFFFF" fill-opacity=".11" stroke="#22C55E" stroke-opacity=".5"/>
+      <circle class="pulse" cx="34" cy="34" r="10" fill="#22C55E"/>
+      <text class="label" x="58" y="38">Backend</text>
+      <text class="small" x="24" y="68">Node, Express, APIs</text>
     </g>
-    <g class="float" transform="translate(494 128)">
-      <rect width="180" height="82" rx="18" fill="#FFFFFF" fill-opacity=".105" stroke="#F59E0B" stroke-opacity=".45"/>
-      <text class="node" x="24" y="33">Databases</text>
-      <text class="small" x="24" y="58">MongoDB, MySQL</text>
+    <g class="float" transform="translate(724 92)">
+      <rect width="176" height="96" rx="20" fill="#FFFFFF" fill-opacity=".11" stroke="#F59E0B" stroke-opacity=".5"/>
+      <circle class="pulse" cx="34" cy="34" r="10" fill="#F59E0B"/>
+      <text class="label" x="58" y="38">Data</text>
+      <text class="small" x="24" y="68">MongoDB, MySQL</text>
     </g>
-    <g class="float2" transform="translate(702 106)">
-      <rect width="180" height="82" rx="18" fill="#FFFFFF" fill-opacity=".105" stroke="#38BDF8" stroke-opacity=".45"/>
-      <text class="node" x="24" y="33">DevOps</text>
-      <text class="small" x="24" y="58">Docker, K8s, Jenkins</text>
+    <g class="float2" transform="translate(932 142)">
+      <rect width="176" height="96" rx="20" fill="#FFFFFF" fill-opacity=".11" stroke="#38BDF8" stroke-opacity=".5"/>
+      <circle class="pulse" cx="34" cy="34" r="10" fill="#38BDF8"/>
+      <text class="label" x="58" y="38">DevOps</text>
+      <text class="small" x="24" y="68">Docker, K8s, Jenkins</text>
     </g>
-    <g class="float" transform="translate(910 128)">
-      <rect width="210" height="82" rx="18" fill="#FFFFFF" fill-opacity=".105" stroke="#22C55E" stroke-opacity=".45"/>
-      <text class="node" x="24" y="33">Workflow</text>
-      <text class="small" x="24" y="58">Git, Linux, Postman, VS Code</text>
+    <g class="float" transform="translate(512 236)">
+      <rect width="176" height="58" rx="20" fill="#FFFFFF" fill-opacity=".10" stroke="#22C55E" stroke-opacity=".44"/>
+      <text class="label" x="36" y="36">Workflow Tools</text>
     </g>
   </g>
 </svg>

@@ -31,7 +31,7 @@
   <path d="M96 220 C260 110 414 248 578 138 C742 28 912 194 1098 74" stroke="url(#accent)" stroke-width="3" class="run" opacity=".9"/>
 
   <text class="title" x="56" y="64">Project Lab</text>
-  <text class="sub" x="58" y="92">Practical repositories built with source code, tests, pipelines, containers, and deployment manifests.</text>
+  <text class="sub" x="58" y="92">Practical repositories shaped around apps, APIs, automation, containers, and deployment workflows.</text>
 
   <g filter="url(#shadow)" class="lift">
     <rect x="70" y="134" width="260" height="106" rx="18" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".16"/>

@@ -38,7 +38,7 @@
       .role { font: 600 22px 'Segoe UI', Arial, sans-serif; fill: #C9DAEE; }
       .body { font: 500 17px 'Segoe UI', Arial, sans-serif; fill: #9FB2C8; }
       .pill { font: 800 14px 'Segoe UI', Arial, sans-serif; fill: #F4F9FF; letter-spacing: .7px; }
-      .mono { font: 700 17px Consolas, 'Courier New', monospace; fill: #D9F99D; }
+      .mono { font: 800 17px 'Segoe UI', Arial, sans-serif; fill: #D9F99D; letter-spacing: .2px; }
       .tiny { font: 600 13px 'Segoe UI', Arial, sans-serif; fill: #BFD0E4; }
       .flow { stroke-dasharray: 10 14; animation: flow 18s linear infinite; }
       .float1 { animation: float1 7s ease-in-out infinite; }
@@ -80,11 +80,13 @@
     <circle cx="735" cy="99" r="6" fill="#F87171"/>
     <circle cx="759" cy="99" r="6" fill="#FBBF24"/>
     <circle cx="783" cy="99" r="6" fill="#34D399"/>
-    <text class="tiny" x="815" y="104">production-pipeline</text>
-    <text class="mono" x="742" y="158">git checkout main</text>
-    <text class="mono" x="742" y="194">npm test &amp;&amp; docker build</text>
-    <text class="mono" x="742" y="230">kubectl apply -f k8s/</text>
-    <text class="mono" x="742" y="266">rollout status: healthy</text>
+    <text class="tiny" x="815" y="104">developer workflow</text>
+    <text class="mono" x="742" y="158">PLAN</text>
+    <text class="mono" x="842" y="158">BUILD</text>
+    <text class="mono" x="948" y="158">SHIP</text>
+    <text class="mono" x="742" y="204">Full Stack Apps</text>
+    <text class="mono" x="742" y="240">CI/CD Automation</text>
+    <text class="mono" x="742" y="276">Cloud Ready Projects</text>
     <rect class="scan" x="724" y="142" width="366" height="30" rx="15" fill="#38BDF8" fill-opacity=".14"/>
   </g>
 
@@ -96,6 +98,6 @@
       <circle cx="120" cy="30" r="6" fill="#22C55E"/>
       <circle cx="168" cy="48" r="6" fill="#F59E0B"/>
     </g>
-    <text class="tiny" x="22" y="126">source code -> tests -> image -> deployment</text>
+    <text class="tiny" x="36" y="126">idea to deployment</text>
   </g>
 </svg>

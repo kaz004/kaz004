@@ -1,0 +1,67 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated contribution calendar</title>
+  <desc id="desc">A clean animated calendar-style contribution visual.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset=".54" stop-color="#10233F"/>
+      <stop offset="1" stop-color="#07352F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="345" x2="1100" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".52" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity=".32"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <style>
+      .title { font: 900 38px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .sub { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #BCD0E5; }
+      .month { font: 800 12px 'Segoe UI', Arial, sans-serif; fill: #9DB3CA; letter-spacing: .8px; }
+      .tag { font: 800 14px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .cell { animation: glow 5s ease-in-out infinite; transform-origin: center; }
+      .d1 { animation-delay: .05s; } .d2 { animation-delay: .18s; } .d3 { animation-delay: .31s; }
+      .d4 { animation-delay: .44s; } .d5 { animation-delay: .57s; } .d6 { animation-delay: .7s; }
+      .d7 { animation-delay: .83s; } .d8 { animation-delay: .96s; } .d9 { animation-delay: 1.09s; }
+      .path { stroke-dasharray: 9 14; animation: flow 16s linear infinite; }
+      @keyframes glow { 0%,100% { opacity: .58; transform: scale(.88); } 50% { opacity: 1; transform: scale(1.08); } }
+      @keyframes flow { to { stroke-dashoffset: -500; } }
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+  <path class="path" d="M76 336C245 170 404 374 592 220C780 66 944 242 1124 112" stroke="url(#accent)" stroke-width="3.2" opacity=".5"/>
+  <text class="title" x="58" y="70">Contribution Rhythm</text>
+  <text class="sub" x="60" y="100">A brighter calendar layer for consistency, learning, project work, and shipping momentum.</text>
+
+  <g transform="translate(68 138)" filter="url(#shadow)">
+    <rect width="1064" height="230" rx="24" fill="#FFFFFF" fill-opacity=".09" stroke="#FFFFFF" stroke-opacity=".16"/>
+    <text class="month" x="38" y="40">JAN</text><text class="month" x="172" y="40">FEB</text><text class="month" x="306" y="40">MAR</text><text class="month" x="440" y="40">APR</text>
+    <text class="month" x="574" y="40">MAY</text><text class="month" x="708" y="40">JUN</text><text class="month" x="842" y="40">JUL</text><text class="month" x="976" y="40">AUG</text>
+    <g transform="translate(38 62)">
+      <rect class="cell d1" x="0" y="0" width="18" height="18" rx="5" fill="#123524"/><rect class="cell d2" x="26" y="0" width="18" height="18" rx="5" fill="#166534"/><rect class="cell d3" x="52" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d4" x="78" y="0" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d5" x="104" y="0" width="18" height="18" rx="5" fill="#16A34A"/><rect class="cell d6" x="130" y="0" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d7" x="156" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d8" x="182" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/>
+      <rect class="cell d8" x="0" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d6" x="26" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d4" x="52" y="28" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d2" x="78" y="28" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d9" x="104" y="28" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d7" x="130" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d5" x="156" y="28" width="18" height="18" rx="5" fill="#123524"/><rect class="cell d3" x="182" y="28" width="18" height="18" rx="5" fill="#16A34A"/>
+    </g>
+    <g transform="translate(306 62)">
+      <rect class="cell d2" x="0" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d5" x="26" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d8" x="52" y="0" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d1" x="78" y="0" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d4" x="104" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d7" x="130" y="0" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d9" x="156" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d3" x="182" y="0" width="18" height="18" rx="5" fill="#16A34A"/>
+      <rect class="cell d9" x="0" y="28" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d3" x="26" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d7" x="52" y="28" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d1" x="78" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d6" x="104" y="28" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d4" x="130" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d8" x="156" y="28" width="18" height="18" rx="5" fill="#123524"/><rect class="cell d2" x="182" y="28" width="18" height="18" rx="5" fill="#86EFAC"/>
+    </g>
+    <g transform="translate(574 62)">
+      <rect class="cell d6" x="0" y="0" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d2" x="26" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d9" x="52" y="0" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d4" x="78" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d1" x="104" y="0" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d7" x="130" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d3" x="156" y="0" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d5" x="182" y="0" width="18" height="18" rx="5" fill="#123524"/>
+      <rect class="cell d5" x="0" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d1" x="26" y="28" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d8" x="52" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d3" x="78" y="28" width="18" height="18" rx="5" fill="#16A34A"/><rect class="cell d6" x="104" y="28" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d2" x="130" y="28" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d9" x="156" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d4" x="182" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/>
+    </g>
+    <g transform="translate(842 62)">
+      <rect class="cell d3" x="0" y="0" width="18" height="18" rx="5" fill="#16A34A"/><rect class="cell d8" x="26" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d4" x="52" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d9" x="78" y="0" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d5" x="104" y="0" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d1" x="130" y="0" width="18" height="18" rx="5" fill="#14532D"/><rect class="cell d7" x="156" y="0" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d2" x="182" y="0" width="18" height="18" rx="5" fill="#BBF7D0"/>
+      <rect class="cell d7" x="0" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d2" x="26" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d6" x="52" y="28" width="18" height="18" rx="5" fill="#123524"/><rect class="cell d4" x="78" y="28" width="18" height="18" rx="5" fill="#86EFAC"/><rect class="cell d9" x="104" y="28" width="18" height="18" rx="5" fill="#15803D"/><rect class="cell d1" x="130" y="28" width="18" height="18" rx="5" fill="#22C55E"/><rect class="cell d5" x="156" y="28" width="18" height="18" rx="5" fill="#BBF7D0"/><rect class="cell d3" x="182" y="28" width="18" height="18" rx="5" fill="#16A34A"/>
+    </g>
+    <text class="tag" x="40" y="176">Consistency</text>
+    <text class="tag" x="244" y="176">Learning</text>
+    <text class="tag" x="430" y="176">Projects</text>
+    <text class="tag" x="632" y="176">Automation</text>
+    <text class="tag" x="848" y="176">Deployment</text>
+  </g>
+</svg>
