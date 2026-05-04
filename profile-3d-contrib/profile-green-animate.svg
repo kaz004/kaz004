@@ -1,6 +1,6 @@
 <svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">3D contribution graph placeholder</title>
-  <desc id="desc">A polished placeholder for the GitHub Actions generated 3D contribution graph.</desc>
+  <title id="title">3D contribution graph</title>
+  <desc id="desc">A 3D contribution terrain graphic for the profile overview.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07111F"/>
@@ -27,8 +27,8 @@
     </style>
   </defs>
   <rect width="1200" height="680" rx="30" fill="url(#bg)"/>
-  <text class="title" x="64" y="78">3D Contribution Graph</text>
-  <text class="text" x="66" y="112">GitHub Actions will replace this placeholder with a real generated contribution model.</text>
+  <text class="title" x="64" y="78">Contribution Terrain</text>
+  <text class="text" x="66" y="112">A visual snapshot of steady building, commits, and project momentum.</text>
   <g transform="translate(118 538)" filter="url(#shadow)">
     <g class="cube d1"><path d="M0 0 L42 -20 L84 0 L42 20 Z" fill="url(#top)"/><path d="M0 0 L42 20 L42 -34 L0 -54 Z" fill="#166534"/><path d="M84 0 L42 20 L42 -34 L84 -54 Z" fill="url(#side)"/></g>
     <g class="cube d2" transform="translate(100 0)"><path d="M0 0 L42 -20 L84 0 L42 20 Z" fill="url(#top)"/><path d="M0 0 L42 20 L42 -92 L0 -112 Z" fill="#166534"/><path d="M84 0 L42 20 L42 -92 L84 -112 Z" fill="url(#side)"/></g>

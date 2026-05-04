@@ -1,94 +1,101 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kavyansh Singh profile banner</title>
-  <desc id="desc">Animated developer profile banner with code, deployment pipeline, and floating interface elements.</desc>
+  <title id="title">Kavyansh Singh developer profile banner</title>
+  <desc id="desc">A professional developer banner with full stack, CI/CD, container, and deployment visuals.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.48" stop-color="#10233F"/>
-      <stop offset="1" stop-color="#062E2B"/>
+      <stop stop-color="#06101F"/>
+      <stop offset="0.45" stop-color="#0E243E"/>
+      <stop offset="1" stop-color="#062D2B"/>
     </linearGradient>
-    <linearGradient id="line" x1="78" y1="310" x2="1120" y2="88" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="78" y1="314" x2="1088" y2="96" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset="0.48" stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
       <stop offset="1" stop-color="#F59E0B"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.055"/>
     </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.34"/>
     </filter>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 L 0 0 0 48" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#FFFFFF" stroke-opacity="0.055"/>
     </pattern>
     <style>
-      .float-a { animation: floatA 7s ease-in-out infinite; }
-      .float-b { animation: floatB 8s ease-in-out infinite; }
-      .pulse { animation: pulse 2.4s ease-in-out infinite; }
-      .dash { stroke-dasharray: 10 16; animation: dash 18s linear infinite; }
+      .name { font: 900 60px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .role { font: 600 22px 'Segoe UI', Arial, sans-serif; fill: #C9DAEE; }
+      .body { font: 500 17px 'Segoe UI', Arial, sans-serif; fill: #9FB2C8; }
+      .pill { font: 800 14px 'Segoe UI', Arial, sans-serif; fill: #F4F9FF; letter-spacing: .7px; }
+      .mono { font: 700 17px Consolas, 'Courier New', monospace; fill: #D9F99D; }
+      .tiny { font: 600 13px 'Segoe UI', Arial, sans-serif; fill: #BFD0E4; }
+      .flow { stroke-dasharray: 10 14; animation: flow 18s linear infinite; }
+      .float1 { animation: float1 7s ease-in-out infinite; }
+      .float2 { animation: float2 8s ease-in-out infinite; }
+      .pulse { animation: pulse 2.5s ease-in-out infinite; }
       .scan { animation: scan 5s ease-in-out infinite; }
-      .type { font: 800 58px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
-      .sub { font: 500 22px 'Segoe UI', Arial, sans-serif; fill: #C8D7EA; }
-      .label { font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #E5EEF8; letter-spacing: .8px; }
-      .mono { font: 600 18px Consolas, 'Courier New', monospace; fill: #D9F99D; }
-      .small { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: #A9B8CC; }
-      @keyframes floatA { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-16px); } }
-      @keyframes floatB { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(14px); } }
-      @keyframes pulse { 0%,100% { opacity: .45; r: 4; } 50% { opacity: 1; r: 7; } }
-      @keyframes dash { to { stroke-dashoffset: -420; } }
-      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(120px); opacity: .75; } }
+      @keyframes flow { to { stroke-dashoffset: -480; } }
+      @keyframes float1 { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes float2 { 0%,100% { transform: translateY(0); } 50% { transform: translateY(12px); } }
+      @keyframes pulse { 0%,100% { opacity: .5; transform: scale(1); } 50% { opacity: 1; transform: scale(1.15); } }
+      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .22; } 50% { transform: translateY(96px); opacity: .7; } }
     </style>
   </defs>
 
   <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
-  <path d="M85 316 C240 178 366 362 520 217 C674 72 822 264 1120 88" stroke="url(#line)" stroke-width="3" class="dash" opacity="0.88" filter="url(#glow)"/>
+  <circle cx="964" cy="116" r="170" fill="url(#halo)"/>
+  <circle cx="120" cy="360" r="210" fill="#22C55E" fill-opacity="0.13"/>
+  <path class="flow" d="M84 316C228 198 354 344 510 214C666 84 826 240 1086 96" stroke="url(#accent)" stroke-width="3.2" filter="url(#glow)" opacity=".9"/>
 
-  <g opacity="0.32">
-    <circle cx="1060" cy="78" r="145" fill="#38BDF8"/>
-    <circle cx="80" cy="360" r="170" fill="#22C55E"/>
-  </g>
+  <g transform="translate(70 76)">
+    <text class="name" x="0" y="62">Kavyansh Singh</text>
+    <text class="role" x="4" y="104">Full Stack Developer | MERN Stack | DevOps Automation</text>
+    <text class="body" x="4" y="146">Building practical web apps, APIs, pipelines, containers, and deployment-ready projects.</text>
 
-  <g transform="translate(68 74)">
-    <text class="type" x="0" y="62">Kavyansh Singh</text>
-    <text class="sub" x="3" y="106">Full Stack Developer | MERN Stack | DevOps Automation</text>
-    <g transform="translate(4 146)">
-      <rect width="172" height="38" rx="19" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.6"/>
-      <text class="label" x="22" y="25">REACT + NODE</text>
-      <rect x="190" width="158" height="38" rx="19" fill="#22C55E" fill-opacity="0.14" stroke="#22C55E" stroke-opacity="0.6"/>
-      <text class="label" x="213" y="25">CI/CD READY</text>
-      <rect x="366" width="176" height="38" rx="19" fill="#F59E0B" fill-opacity="0.14" stroke="#F59E0B" stroke-opacity="0.6"/>
-      <text class="label" x="389" y="25">DOCKER + K8S</text>
+    <g transform="translate(4 180)">
+      <rect width="150" height="38" rx="19" fill="#38BDF8" fill-opacity=".16" stroke="#38BDF8" stroke-opacity=".65"/>
+      <text class="pill" x="23" y="25">MERN STACK</text>
+      <rect x="168" width="136" height="38" rx="19" fill="#22C55E" fill-opacity=".16" stroke="#22C55E" stroke-opacity=".65"/>
+      <text class="pill" x="193" y="25">CI/CD</text>
+      <rect x="322" width="170" height="38" rx="19" fill="#F59E0B" fill-opacity=".16" stroke="#F59E0B" stroke-opacity=".65"/>
+      <text class="pill" x="346" y="25">DOCKER + K8S</text>
     </g>
   </g>
 
-  <g class="float-a" filter="url(#softShadow)">
-    <rect x="710" y="82" width="372" height="215" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.18"/>
-    <rect x="710" y="82" width="372" height="48" rx="20" fill="#FFFFFF" fill-opacity="0.08"/>
-    <circle cx="738" cy="106" r="6" fill="#F87171"/>
-    <circle cx="760" cy="106" r="6" fill="#FBBF24"/>
-    <circle cx="782" cy="106" r="6" fill="#34D399"/>
-    <text class="small" x="812" y="112">pipeline.yml</text>
-    <text class="mono" x="742" y="166">checkout -> test -> build</text>
-    <text class="mono" x="742" y="202">docker image -> deploy</text>
-    <text class="mono" x="742" y="238">kubernetes rollout</text>
-    <rect class="scan" x="728" y="142" width="334" height="28" rx="14" fill="#38BDF8" fill-opacity="0.13"/>
+  <g class="float1" filter="url(#shadow)">
+    <rect x="705" y="72" width="404" height="240" rx="22" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <rect x="705" y="72" width="404" height="52" rx="22" fill="#FFFFFF" fill-opacity=".08"/>
+    <circle cx="735" cy="99" r="6" fill="#F87171"/>
+    <circle cx="759" cy="99" r="6" fill="#FBBF24"/>
+    <circle cx="783" cy="99" r="6" fill="#34D399"/>
+    <text class="tiny" x="815" y="104">production-pipeline</text>
+    <text class="mono" x="742" y="158">git checkout main</text>
+    <text class="mono" x="742" y="194">npm test && docker build</text>
+    <text class="mono" x="742" y="230">kubectl apply -f k8s/</text>
+    <text class="mono" x="742" y="266">rollout status: healthy</text>
+    <rect class="scan" x="724" y="142" width="366" height="30" rx="15" fill="#38BDF8" fill-opacity=".14"/>
   </g>
 
-  <g class="float-b" transform="translate(760 292)" filter="url(#softShadow)">
-    <path d="M0 52 L142 0 L284 52 L142 112 Z" fill="#0B182A" stroke="#38BDF8" stroke-opacity="0.45"/>
-    <path d="M42 52 L142 16 L242 52 L142 88 Z" fill="#10233F" stroke="#22C55E" stroke-opacity="0.5"/>
-    <circle cx="82" cy="52" r="5" fill="#38BDF8" class="pulse"/>
-    <circle cx="142" cy="30" r="5" fill="#22C55E" class="pulse"/>
-    <circle cx="202" cy="52" r="5" fill="#F59E0B" class="pulse"/>
-    <text class="small" x="82" y="142">clean projects, real commits, deployable code</text>
+  <g class="float2" transform="translate(730 314)" filter="url(#shadow)">
+    <path d="M0 48L120 0L240 48L120 96Z" fill="#0B182A" stroke="#38BDF8" stroke-opacity=".42"/>
+    <path d="M48 48L120 18L192 48L120 78Z" fill="#0E243E" stroke="#22C55E" stroke-opacity=".54"/>
+    <g class="pulse">
+      <circle cx="72" cy="48" r="6" fill="#38BDF8"/>
+      <circle cx="120" cy="30" r="6" fill="#22C55E"/>
+      <circle cx="168" cy="48" r="6" fill="#F59E0B"/>
+    </g>
+    <text class="tiny" x="22" y="126">source code -> tests -> image -> deployment</text>
   </g>
 </svg>
