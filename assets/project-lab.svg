@@ -1,0 +1,57 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project lab visual</title>
+  <desc id="desc">A polished project lab graphic showing full stack and DevOps workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset=".52" stop-color="#10233F"/>
+      <stop offset="1" stop-color="#082F2A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="230" x2="1100" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+    <style>
+      .title { font: 800 34px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .sub { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #BED0E4; }
+      .label { font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #EAF2FF; }
+      .mono { font: 600 16px Consolas, monospace; fill: #D9F99D; }
+      .run { stroke-dasharray: 8 13; animation: run 16s linear infinite; }
+      .lift { animation: lift 6s ease-in-out infinite; }
+      .lift2 { animation: lift 7s ease-in-out infinite reverse; }
+      @keyframes run { to { stroke-dashoffset: -360; } }
+      @keyframes lift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <path d="M96 220 C260 110 414 248 578 138 C742 28 912 194 1098 74" stroke="url(#accent)" stroke-width="3" class="run" opacity=".9"/>
+
+  <text class="title" x="56" y="64">Project Lab</text>
+  <text class="sub" x="58" y="92">Practical repositories built with source code, tests, pipelines, containers, and deployment manifests.</text>
+
+  <g filter="url(#shadow)" class="lift">
+    <rect x="70" y="134" width="260" height="106" rx="18" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".16"/>
+    <text class="label" x="96" y="169">Full Stack</text>
+    <text class="mono" x="96" y="202">React / Node / APIs</text>
+    <circle cx="286" cy="172" r="16" fill="#38BDF8" fill-opacity=".24" stroke="#38BDF8"/>
+  </g>
+
+  <g filter="url(#shadow)" class="lift2">
+    <rect x="470" y="112" width="260" height="128" rx="18" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".16"/>
+    <text class="label" x="496" y="150">Automation</text>
+    <text class="mono" x="496" y="184">Jenkins -> Docker</text>
+    <text class="mono" x="496" y="214">Kubernetes deploy</text>
+    <circle cx="684" cy="152" r="16" fill="#22C55E" fill-opacity=".24" stroke="#22C55E"/>
+  </g>
+
+  <g filter="url(#shadow)" class="lift">
+    <rect x="870" y="134" width="260" height="106" rx="18" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".16"/>
+    <text class="label" x="896" y="169">Quality</text>
+    <text class="mono" x="896" y="202">Tests / Docs / Git</text>
+    <circle cx="1086" cy="172" r="16" fill="#F59E0B" fill-opacity=".24" stroke="#F59E0B"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="1200" height="170" viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer metrics strip</title>
+  <desc id="desc">A compact visual strip showing focus areas for the GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EAF5F2"/>
+    </linearGradient>
+    <style>
+      .num { font: 900 34px 'Segoe UI', Arial, sans-serif; fill: #10233F; }
+      .label { font: 700 14px 'Segoe UI', Arial, sans-serif; fill: #155EEF; letter-spacing: .6px; }
+      .text { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: #526175; }
+    </style>
+  </defs>
+  <rect width="1200" height="170" rx="24" fill="url(#bg)"/>
+  <g transform="translate(58 38)">
+    <rect width="236" height="94" rx="18" fill="#FFFFFF" stroke="#D9E2EE"/>
+    <text class="num" x="24" y="46">02</text>
+    <text class="label" x="24" y="70">FEATURED REPOS</text>
+    <text class="text" x="24" y="91">DevOps + Microservices</text>
+  </g>
+  <g transform="translate(334 38)">
+    <rect width="236" height="94" rx="18" fill="#FFFFFF" stroke="#D9E2EE"/>
+    <text class="num" x="24" y="46">06+</text>
+    <text class="label" x="24" y="70">DEVOPS TOOLS</text>
+    <text class="text" x="24" y="91">Git, Jenkins, Docker, K8s</text>
+  </g>
+  <g transform="translate(610 38)">
+    <rect width="236" height="94" rx="18" fill="#FFFFFF" stroke="#D9E2EE"/>
+    <text class="num" x="24" y="46">MERN</text>
+    <text class="label" x="24" y="70">STACK FOCUS</text>
+    <text class="text" x="24" y="91">React, Node, APIs, DBs</text>
+  </g>
+  <g transform="translate(886 38)">
+    <rect width="236" height="94" rx="18" fill="#FFFFFF" stroke="#D9E2EE"/>
+    <text class="num" x="24" y="46">CI/CD</text>
+    <text class="label" x="24" y="70">BUILD MINDSET</text>
+    <text class="text" x="24" y="91">Tests, docs, deployment</text>
+  </g>
+</svg>

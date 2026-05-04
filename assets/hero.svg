@@ -35,7 +35,7 @@
       .pulse { animation: pulse 2.4s ease-in-out infinite; }
       .dash { stroke-dasharray: 10 16; animation: dash 18s linear infinite; }
       .scan { animation: scan 5s ease-in-out infinite; }
-      .type { font: 700 58px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .type { font: 800 58px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
       .sub { font: 500 22px 'Segoe UI', Arial, sans-serif; fill: #C8D7EA; }
       .label { font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #E5EEF8; letter-spacing: .8px; }
       .mono { font: 600 18px Consolas, 'Courier New', monospace; fill: #D9F99D; }
