@@ -82,7 +82,7 @@
     <circle cx="783" cy="99" r="6" fill="#34D399"/>
     <text class="tiny" x="815" y="104">production-pipeline</text>
     <text class="mono" x="742" y="158">git checkout main</text>
-    <text class="mono" x="742" y="194">npm test && docker build</text>
+    <text class="mono" x="742" y="194">npm test &amp;&amp; docker build</text>
     <text class="mono" x="742" y="230">kubectl apply -f k8s/</text>
     <text class="mono" x="742" y="266">rollout status: healthy</text>
     <rect class="scan" x="724" y="142" width="366" height="30" rx="15" fill="#38BDF8" fill-opacity=".14"/>

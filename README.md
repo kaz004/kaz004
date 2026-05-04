@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Kavyansh Singh animated profile banner" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/hero.svg?v=6" alt="Kavyansh Singh developer profile banner" width="100%">
 
 <br><br>
 
@@ -20,7 +20,7 @@
 
 <br>
 
-<img src="./assets/metrics.svg" alt="Developer focus metrics" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/metrics.svg?v=6" alt="Developer focus metrics" width="100%">
 
 ## Snapshot
 
@@ -50,7 +50,7 @@
 
 ## Project Showcase
 
-<img src="./assets/project-lab.svg" alt="Project lab visual" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/project-lab.svg?v=6" alt="Project lab visual" width="100%">
 
 <br>
 
@@ -96,7 +96,7 @@
 <table>
   <tr>
     <td width="48%" valign="top">
-      <img src="./assets/activity-skyline.svg" alt="Animated contribution activity skyline" width="100%">
+      <img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/activity-skyline.svg?v=6" alt="Animated contribution activity skyline" width="100%">
     </td>
     <td width="52%" valign="top">
       <a href="https://github.com/kaz004">
@@ -106,7 +106,7 @@
   </tr>
 </table>
 
-<img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution terrain" width="92%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/profile-3d-contrib/profile-green-animate.svg?v=6" alt="3D contribution terrain" width="92%">
 
 </div>
 
@@ -114,9 +114,18 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/stack-galaxy.svg?v=6" alt="Technology stack visual map" width="100%">
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,nodejs,express,mongodb,mysql,python,cpp,tailwind,bootstrap,git,github,docker,kubernetes,jenkins,terraform,ansible,linux,bash,postman,vscode,figma&perline=13" alt="Technology icons">
+
+<br><br>
+
 <b>Languages</b>
 <br><br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
 ![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
 ![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=cplusplus&logoColor=00599C)
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
@@ -126,6 +135,8 @@
 <b>Frontend</b>
 <br><br>
 ![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-111827?style=for-the-badge&logo=vite&logoColor=646CFF)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=for-the-badge&logo=bootstrap&logoColor=7952B3)
 
@@ -134,6 +145,8 @@
 <br><br>
 ![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
 ![Express](https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20APIs-111827?style=for-the-badge&logo=fastapi&logoColor=009688)
+![JWT](https://img.shields.io/badge/JWT-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=for-the-badge&logo=mongodb&logoColor=47A248)
 ![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1)
 
@@ -142,11 +155,16 @@
 <br><br>
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-111827?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Jenkins](https://img.shields.io/badge/Jenkins-111827?style=for-the-badge&logo=jenkins&logoColor=D24939)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-111827?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
 ![Terraform](https://img.shields.io/badge/Terraform-111827?style=for-the-badge&logo=terraform&logoColor=844FBA)
 ![Ansible](https://img.shields.io/badge/Ansible-111827?style=for-the-badge&logo=ansible&logoColor=EE0000)
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Bash](https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
+![Postman](https://img.shields.io/badge/Postman-111827?style=for-the-badge&logo=postman&logoColor=FF6C37)
+![VS Code](https://img.shields.io/badge/VS%20Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
 
 </div>
 
