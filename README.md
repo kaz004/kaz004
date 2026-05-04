@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/hero.svg?v=7" alt="Kavyansh Singh developer profile banner" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/hero.svg?v=8" alt="Kavyansh Singh developer profile banner" width="100%">
 
 <br><br>
 
@@ -20,7 +20,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/metrics.svg?v=7" alt="Developer focus metrics" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/metrics.svg?v=8" alt="Developer focus metrics" width="100%">
 
 ## Snapshot
 
@@ -50,7 +50,7 @@
 
 ## Project Showcase
 
-<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/project-lab.svg?v=7" alt="Project lab visual" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/project-lab.svg?v=8" alt="Project lab visual" width="100%">
 
 <br>
 
@@ -96,7 +96,7 @@
 <table>
   <tr>
     <td width="48%" valign="top">
-      <img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/contribution-calendar.svg?v=7" alt="Animated contribution calendar" width="100%">
+      <img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/contribution-calendar.svg?v=8" alt="Animated contribution calendar" width="100%">
     </td>
     <td width="52%" valign="top">
       <a href="https://github.com/kaz004">
@@ -106,7 +106,7 @@
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/profile-3d-contrib/profile-green-animate.svg?v=7" alt="3D contribution terrain" width="92%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/profile-3d-contrib/profile-green-animate.svg?v=8" alt="3D contribution terrain" width="92%">
 
 </div>
 
@@ -114,7 +114,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/stack-galaxy.svg?v=7" alt="Technology stack visual map" width="100%">
+<img src="https://raw.githubusercontent.com/kaz004/kaz004/main/assets/stack-galaxy.svg?v=8" alt="Technology stack visual map" width="100%">
 
 <br><br>
 
