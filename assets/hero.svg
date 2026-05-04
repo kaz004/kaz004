@@ -1,0 +1,94 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kavyansh Singh profile banner</title>
+  <desc id="desc">Animated developer profile banner with code, deployment pipeline, and floating interface elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#10233F"/>
+      <stop offset="1" stop-color="#062E2B"/>
+    </linearGradient>
+    <linearGradient id="line" x1="78" y1="310" x2="1120" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.48" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <style>
+      .float-a { animation: floatA 7s ease-in-out infinite; }
+      .float-b { animation: floatB 8s ease-in-out infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .dash { stroke-dasharray: 10 16; animation: dash 18s linear infinite; }
+      .scan { animation: scan 5s ease-in-out infinite; }
+      .type { font: 700 58px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .sub { font: 500 22px 'Segoe UI', Arial, sans-serif; fill: #C8D7EA; }
+      .label { font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #E5EEF8; letter-spacing: .8px; }
+      .mono { font: 600 18px Consolas, 'Courier New', monospace; fill: #D9F99D; }
+      .small { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: #A9B8CC; }
+      @keyframes floatA { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-16px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(14px); } }
+      @keyframes pulse { 0%,100% { opacity: .45; r: 4; } 50% { opacity: 1; r: 7; } }
+      @keyframes dash { to { stroke-dashoffset: -420; } }
+      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(120px); opacity: .75; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <path d="M85 316 C240 178 366 362 520 217 C674 72 822 264 1120 88" stroke="url(#line)" stroke-width="3" class="dash" opacity="0.88" filter="url(#glow)"/>
+
+  <g opacity="0.32">
+    <circle cx="1060" cy="78" r="145" fill="#38BDF8"/>
+    <circle cx="80" cy="360" r="170" fill="#22C55E"/>
+  </g>
+
+  <g transform="translate(68 74)">
+    <text class="type" x="0" y="62">Kavyansh Singh</text>
+    <text class="sub" x="3" y="106">Full Stack Developer | MERN Stack | DevOps Automation</text>
+    <g transform="translate(4 146)">
+      <rect width="172" height="38" rx="19" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.6"/>
+      <text class="label" x="22" y="25">REACT + NODE</text>
+      <rect x="190" width="158" height="38" rx="19" fill="#22C55E" fill-opacity="0.14" stroke="#22C55E" stroke-opacity="0.6"/>
+      <text class="label" x="213" y="25">CI/CD READY</text>
+      <rect x="366" width="176" height="38" rx="19" fill="#F59E0B" fill-opacity="0.14" stroke="#F59E0B" stroke-opacity="0.6"/>
+      <text class="label" x="389" y="25">DOCKER + K8S</text>
+    </g>
+  </g>
+
+  <g class="float-a" filter="url(#softShadow)">
+    <rect x="710" y="82" width="372" height="215" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <rect x="710" y="82" width="372" height="48" rx="20" fill="#FFFFFF" fill-opacity="0.08"/>
+    <circle cx="738" cy="106" r="6" fill="#F87171"/>
+    <circle cx="760" cy="106" r="6" fill="#FBBF24"/>
+    <circle cx="782" cy="106" r="6" fill="#34D399"/>
+    <text class="small" x="812" y="112">pipeline.yml</text>
+    <text class="mono" x="742" y="166">checkout -> test -> build</text>
+    <text class="mono" x="742" y="202">docker image -> deploy</text>
+    <text class="mono" x="742" y="238">kubernetes rollout</text>
+    <rect class="scan" x="728" y="142" width="334" height="28" rx="14" fill="#38BDF8" fill-opacity="0.13"/>
+  </g>
+
+  <g class="float-b" transform="translate(760 292)" filter="url(#softShadow)">
+    <path d="M0 52 L142 0 L284 52 L142 112 Z" fill="#0B182A" stroke="#38BDF8" stroke-opacity="0.45"/>
+    <path d="M42 52 L142 16 L242 52 L142 88 Z" fill="#10233F" stroke="#22C55E" stroke-opacity="0.5"/>
+    <circle cx="82" cy="52" r="5" fill="#38BDF8" class="pulse"/>
+    <circle cx="142" cy="30" r="5" fill="#22C55E" class="pulse"/>
+    <circle cx="202" cy="52" r="5" fill="#F59E0B" class="pulse"/>
+    <text class="small" x="82" y="142">clean projects, real commits, deployable code</text>
+  </g>
+</svg>
